@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import CreatePost from "./pages/CreatePost";
-import NavBar from './components/Navbar';
+import Navbar from './components/Navbar';
 
 const API_URL = `${import.meta.env.VITE_API_URL}/api/posts`;
 
